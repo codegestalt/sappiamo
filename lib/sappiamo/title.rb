@@ -1,7 +1,7 @@
 require 'faraday'
 require 'json'
 
-API_URL = "http://159.100.248.244:3000/titles"
+API_URL = "http://159.100.248.244:3000/api/v1/titles"
 
 CONN = Faraday::Connection.new API_URL
 
@@ -45,6 +45,10 @@ module Sappiamo
       response = CONN.get(id)
       attributes = JSON.parse(response.body)
       new(attributes)
+    end
+
+    def authors
+
     end
 
   end
