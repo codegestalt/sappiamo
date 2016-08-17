@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<http://endpoint/api/v1>/titles/CD7AD478-7AB3-441F-A5F8-20DEE8E2CE3E"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Sappiamo/0.1.0
+      Authorization:
+      - Token token=<API_KEY>
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"72907e1c6495a009e546c65cc9daa9dd"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - df105b1a-c311-4160-a88f-a0b3b491e75e
+      X-Runtime:
+      - '0.027613'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"title":{"cProdKey":"CD7AD478-7AB3-441F-A5F8-20DEE8E2CE3E","cProduktNr":"P1600453            ","cAuflKey":"038ACFE0-2E69-42EA-8E89-C2C7B1A41086","ISBN":"978-3-85869-340-2                   ","EAN":"9783858693402                       ","VerlagsBNummer":"310                                 ","Autor1Titel":null,"Autor1Vorname":"Al                                                ","Autor1Name":"Imfeld                                            ","Autor2Titel":null,"Autor2Vorname":null,"Autor2Name":null,"Autor3Titel":null,"Autor3Vorname":null,"Autor3Name":null,"Herausgeber1Titel":null,"Herausgeber1Vorname":null,"Herausgeber1Name":null,"Herausgeber2Titel":null,"Herausgeber2Vorname":null,"Herausgeber2Name":null,"Herausgeber3Titel":null,"Herausgeber3Vorname":null,"Herausgeber3Name":null,"cProdTitel":"Lies
+        und werde reich","cUnterTitel":"Geschichten vom Geld","cProdKurzbez":"Imfeld,
+        Lies und werde reich                      ","nAuflagenNr":1,"cAuflagenText":"1.,
+        Aufl.                                                       ","cErschTermin":"20.03.2007","dErstverkaufstag":null,"nAnzahlSeiten":192,"cAbbildungsText":null,"dWebVon":"2016-07-26","dWebBis":null,"cEinbandLang":"gebunden                                                                                                                        ","cMldNummer":null,"cMldText":null,"LagerbestandCH":189,"LagerbestandDE":null,"cReiheBez":null,"cBandNr":null,"VP_CHF":"32.0","VP_EUR":"29.0","cPrGrCde":"1400      ","cPrGrBez":"Belletristik                                      ","cWebPrio":null,"nHoehe":"20.4","nBreite":"12.5","cPublSprache":"DE","nGewicht":"0.335"}}'
+    http_version: 
+  recorded_at: Wed, 17 Aug 2016 19:07:08 GMT
+recorded_with: VCR 3.0.3

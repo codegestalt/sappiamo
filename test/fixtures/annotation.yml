@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<http://endpoint/api/v1>/annotations/A50BF05F-BE7B-450C-A8BA-B626662A664D"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Sappiamo/0.1.0
+      Authorization:
+      - Token token=<API_KEY>
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"b79860abcc6f30c997ad0180deaaf646"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 97625d14-c06a-43a0-b136-319f9d911745
+      X-Runtime:
+      - '0.048255'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJhbm5vdGF0aW9uIjp7ImNBbm5vdEtleSI6IkE1MEJGMDVGLUJFN0ItNDUw
+        Qy1BOEJBLUI2MjY2NjJBNjY0RCIsImNBbm5vdFR5cENkZSI6IjEyICAiLCJj
+        QW5ub3RUeXBCZXoiOiJUZXh0ICAgICAgICAgICAgICAgICAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICIsImNBbm5vdGF0aW9uIjoiQWxzIE1jRG9u
+        YWxk4oCZcyAxOTg2IGF1ZiBkZXIgUGlhenphIE5hdm9uYSBpbiBSb20gZWlu
+        IEZhc3QtRm9vZC1SZXN0YXVyYW50IGVyw7ZmZm5ldGUsIGthbSBlcyB6dSBN
+        YXNzZW5wcm90ZXN0ZW4gdW5kIGltIEFuc2NobHVzcyBkYXJhbiB6dXIgR3LD
+        vG5kdW5nIGRlciBPcmdhbmlzYXRpb24gU2xvdyBGb29kIEludGVybmF0aW9u
+        YWwuIERpZSBWb3JnZXNjaGljaHRlIGRlciBCZXdlZ3VuZyBpc3QgbGFuZzog
+        U2VpdCBkZW4gMTk3MGVyLUphaHJlbiBzZXR6dGVuIHNpY2ggenVlcnN0IGlt
+        IFBpZW1vbnQsIHNww6R0ZXIgaW4gZ2FueiBJdGFsaWVuIHJlZ2lvbmFsZSBa
+        dXNhbW1lbnNjaGzDvHNzZSBmw7xyIGRpZSBQZmxlZ2UgZGVyIGVpbmhlaW1p
+        c2NoZW4gS8O8Y2hlLCBkZXMgZWluaGVpbWlzY2hlbiBXZWluZXMgdW5kIGRl
+        ciB0cmFkaXRpb25lbGxlbiBFc3NrdWx0dXIgZWluLiBTbG93IEZvb2QgYnJl
+        aXRldGUgc2ljaCB2b24gSXRhbGllbiBpbiBkZXIgZ2FuemVuIFdlbHQgYXVz
+        IHVuZCB6w6RobHQgaGV1dGUgw7xiZXIgNzUgMDAwIE1pdGdsaWVkZXIgaW4g
+        NDUgTMOkbmRlcm4uIFNsb3cgRm9vZCBzZXR6dCBzaWNoIGVpbiBmw7xyIGRp
+        ZSBBdWZ3ZXJ0dW5nIHJlZ2lvbmFsZXIgUHJvZHVrdGUsIGbDvHIgZGllIEVy
+        aGFsdHVuZyBkZXIgYmlvbG9naXNjaGVuIHVuZCBrdWx0dXJlbGxlbiBWaWVs
+        ZmFsdCB1bmQgZsO8ciDDtmtvbG9naXNjaCB1bmQgc296aWFsIHZlcnRyw6Rn
+        bGljaGUgUHJvZHVrdGlvbnN3ZWlzZW4uIFNvIGVyaGFsdGVuIGF1Y2ggw6Ry
+        bXN0ZSBSZWdpb25lbiBlaW5lIENoYW5jZS4gRGllIFBmbGVnZSBkZXIgVGlz
+        Y2hrdWx0dXIgdW5kIGVpbmUgZ2VzdW5kZSBFcm7DpGhydW5nIGF1cyBob2No
+        d2VydGlnZW4gdW5kIHNjaG1hY2toYWZ0ZW4gTGViZW5zbWl0dGVsbiDigJMg
+        dm9uIGVpbmVyIGVsaXTDpHJlbiBIYXV0ZSBDdWlzaW5lIGViZW5zbyBmZXJu
+        IHdpZSB2b24gRmFzdCBGb29kIOKAkyBzaW5kIGbDvHIgZGFzIFdvaGxiZWZp
+        bmRlbiBlc3NlbnppZWxsOiBaaWVsIHZvbiBTbG93IEZvb2QgaXN0IGF1Y2gg
+        ZGllIFN0ZWlnZXJ1bmcgZGVyIExlYmVuc3F1YWxpdMOkdCBkZXMgRWluemVs
+        bmVuLlNsb3cgRm9vZC4gR2VuaWXDn2VuIG1pdCBWZXJzdGFuZCBiaWV0ZXQg
+        ZWluZW4gw5xiZXJibGljayDDvGJlciBkaWUgR2VzY2hpY2h0ZSB1bmQgRW50
+        d2lja2x1bmcgZGVyIEJld2VndW5nIHVuZCDDvGJlciBkaWUgemVudHJhbGVu
+        IEFubGllZ2VuIHVuZCBBa3Rpdml0w6R0ZW4uIEltIEFuaGFuZyBmaW5kZW4g
+        c2ljaCB6YWhscmVpY2hlIEluZm9ybWF0aW9uZW4gw7xiZXIgbG9rYWxlIFNw
+        ZXppYWxpdMOkdGVuIHVuZCBQcm9kdXplbnRlbiwgw7xiZXIgU2xvdy1Gb29k
+        LVByw6RzaWRpZW4gdW5kIGFuZGVyZXMuIEVpbiBCdWNoIGbDvHIgYWxsZSwg
+        ZGllIHNpY2ggZsO8ciBlaW5lIGdlbnVzc3ZvbGxlLCBnZXN1bmRlIEVybsOk
+        aHJ1bmcgaW50ZXJlc3NpZXJlbi4iLCJjTGluayI6bnVsbCwiY1Byb2RLZXki
+        OiIzQjlFRjJDMy1CODk4LTRERTEtOUE1Ri0zNkJFNTVEQzI0RTIiLCJjQXVm
+        bEtleSI6bnVsbCwiY05hbWVLZXkiOm51bGx9fQ==
+    http_version: 
+  recorded_at: Wed, 17 Aug 2016 19:30:01 GMT
+recorded_with: VCR 3.0.3

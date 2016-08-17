@@ -7,8 +7,10 @@ require 'vcr'
 env = File.join('env.rb')
 load(env) if File.exists?(env)
 
+
 VCR.configure do |c|
   c.cassette_library_dir = "test/fixtures"
   c.hook_into :webmock
   c.filter_sensitive_data("<API_KEY>"){ ENV['SAPPIAMO_API_TOKEN'] }
+  c.filter_sensitive_data("<http://endpoint/api/v1>"){ ENV['SAPPIAMO_API_ENDPOINT'] }
 end
