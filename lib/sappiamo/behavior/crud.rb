@@ -3,7 +3,7 @@ module Sappiamo
     module Crud
       # Retrieves all items
       # @return [Array<Sappiamo::BaseModel>] an array of models
-      def all(user = nil, query_options = {})
+      def all(query_options = {})
         query = query_options
         response = request(:get, credentials, api_model.api_path, :query => query)
         api_model.parse(response.parsed_response)
