@@ -33,9 +33,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - df105b1a-c311-4160-a88f-a0b3b491e75e
+      - 08aa309f-e710-4ba3-b8b0-58a35b0e4aa6
       X-Runtime:
-      - '0.027613'
+      - '0.107594'
       Transfer-Encoding:
       - chunked
     body:
@@ -45,5 +45,5 @@ http_interactions:
         Lies und werde reich                      ","nAuflagenNr":1,"cAuflagenText":"1.,
         Aufl.                                                       ","cErschTermin":"20.03.2007","dErstverkaufstag":null,"nAnzahlSeiten":192,"cAbbildungsText":null,"dWebVon":"2016-07-26","dWebBis":null,"cEinbandLang":"gebunden                                                                                                                        ","cMldNummer":null,"cMldText":null,"LagerbestandCH":189,"LagerbestandDE":null,"cReiheBez":null,"cBandNr":null,"VP_CHF":"32.0","VP_EUR":"29.0","cPrGrCde":"1400      ","cPrGrBez":"Belletristik                                      ","cWebPrio":null,"nHoehe":"20.4","nBreite":"12.5","cPublSprache":"DE","nGewicht":"0.335"}}'
     http_version: 
-  recorded_at: Wed, 17 Aug 2016 19:07:08 GMT
+  recorded_at: Thu, 18 Aug 2016 07:55:48 GMT
 recorded_with: VCR 3.0.3

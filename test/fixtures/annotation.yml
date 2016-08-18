@@ -33,9 +33,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 97625d14-c06a-43a0-b136-319f9d911745
+      - 8f99c2a4-cbd8-453f-978a-f665143b226c
       X-Runtime:
-      - '0.048255'
+      - '0.007956'
       Transfer-Encoding:
       - chunked
     body:
@@ -81,5 +81,5 @@ http_interactions:
         OiIzQjlFRjJDMy1CODk4LTRERTEtOUE1Ri0zNkJFNTVEQzI0RTIiLCJjQXVm
         bEtleSI6bnVsbCwiY05hbWVLZXkiOm51bGx9fQ==
     http_version: 
-  recorded_at: Wed, 17 Aug 2016 19:30:01 GMT
+  recorded_at: Thu, 18 Aug 2016 07:55:55 GMT
 recorded_with: VCR 3.0.3
