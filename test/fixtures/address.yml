@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: "<http://endpoint/api/v1>/addresses/C4839FB5-C201-4FFB-A95E-9B24BC965DDD"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Sappiamo/0.1.0
+      Authorization:
+      - Token token=<API_KEY>
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"3ad448d025b4c2fa79753967e8e6bcfa"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8873225d-6614-4114-b157-4d7507c1ed28
+      X-Runtime:
+      - '0.039452'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJhZGRyZXNzIjp7ImNOYW1lS2V5IjoiMDA1RTU5RDAtMjU1OC00NERBLThF
+        NUUtNzkyODlCQUZBNTlEIiwiY0t1bmRlbk5yIjoiSzAxMzI1MzcgICAgICAg
+        ICAgICAiLCJjQW5yZWRlIjoiSGVyciAgICAgICAgICAgICAgICAiLCJjVGl0
+        ZWwiOm51bGwsImNWb3JuYW1lIjoiTWFya3VzICAgICAgICAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAiLCJjTmFtZSI6IlNjaMOkciAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICIs
+        ImNadXNhdHoiOm51bGwsIm5TZXhDb2RlIjoyLCJjQWRyZXNzZSI6IlNwaW5u
+        ZXJlaXdlZyA0ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+        IiwiY0hhdXNOciI6bnVsbCwiY1Bvc3RmYWNoIjoiICAgICAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICIsImNQTFoiOiIzMDA0ICAiLCJj
+        T3J0IjoiQmVybiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+        ICAgICAgICAgICAiLCJjQWRyZXNzWnVzYXR6IjpudWxsLCJjRU1haWwiOiJt
+        YXJrdXMuc2NoYWVyQGdteC5uZXQgICAgICAgICAgICAgICAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+        ICAgICAgICAgIiwiY0VNYWlsRGlyZWt0IjpudWxsLCJjRU1haWxQcml2YXQi
+        Om51bGwsImNUZWxlZm9uRmVzdG5ldHoiOm51bGwsImNUZWxlZm9uTW9iaWxl
+        IjpudWxsLCJjQWRyZXNzS2V5IjoiQzQ4MzlGQjUtQzIwMS00RkZCLUE5NUUt
+        OUIyNEJDOTY1REREIn19
+    http_version: 
+  recorded_at: Sat, 03 Sep 2016 13:01:21 GMT
+recorded_with: VCR 3.0.3

@@ -24,5 +24,10 @@ module Sappiamo
       @titles ||= Sappiamo::API::Annotations.new(credentials)
     end
 
+    def addresses
+      @addresses ||= Sappiamo::API::Addresses.new(credentials)
+
+    end
+
   end
 end
