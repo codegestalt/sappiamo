@@ -16,8 +16,8 @@ require "sappiamo/base"
 
 require "sappiamo/behavior/crud"
 
-%w(model title annotation address).each {|a| require "sappiamo/#{a}"}
-%w(base titles annotations addresses).each {|a| require "sappiamo/api/#{a}"}
+%w(model title annotation address transaction).each {|a| require "sappiamo/#{a}"}
+%w(base titles annotations addresses transactions).each {|a| require "sappiamo/api/#{a}"}
 
 module Sappiamo
 

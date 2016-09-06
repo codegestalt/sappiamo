@@ -17,16 +17,25 @@ module Sappiamo
       @titles ||= Sappiamo::API::Titles.new(credentials)
     end
 
-    # All API actions surrounding Titles
+    # All API actions surrounding Annotations
     #
-    # @return [Sappiamo::API::Titles]
+    # @return [Sappiamo::API::Annotations]
     def annotations
       @titles ||= Sappiamo::API::Annotations.new(credentials)
     end
 
+    # All API actions surrounding Addresses
+    #
+    # @return [Sappiamo::API::Addresses]
     def addresses
       @addresses ||= Sappiamo::API::Addresses.new(credentials)
+    end
 
+    # All API actions surrounding Transactions
+    #
+    # @return [Sappiamo::API::Transactions]
+    def transactions
+      @transactions ||= Sappiamo::API::Transactions.new(credentials)
     end
 
   end
