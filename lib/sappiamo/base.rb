@@ -38,5 +38,12 @@ module Sappiamo
       @transactions ||= Sappiamo::API::Transactions.new(credentials)
     end
 
+    # All API actions surrounding Orders
+    #
+    # @return [Sappiamo::API::Transactions]
+    def orders
+      @orders ||= Sappiamo::API::Orders.new(credentials)
+    end
+
   end
 end
