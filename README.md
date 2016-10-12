@@ -17,7 +17,21 @@ client.titles.all   # list out all titles in the sappiamo database
 ### Creating an order
 
 ```ruby
-order = Sappiamo::Order.new(cRAnrede: "Herr", cRVorname: "Test", cRName: "User", cRAdresse: "TestAdress", cRPLZ: "4053", cROrt: "Basel", cRLandISO: "CH", cREMail: "test@test.com", line_items_attributes: [{cProdKey: "D075D583-4D5E-4DE6-8D6B-9C7807A07DDD", cAuflKey: "E9B80D78-6E5E-4890-90C9-3FBA4C949F36", nBestellMnge: 2, nVerPreis: 49.0}, {cProdKey: "0819F486-2B8B-4F65-A181-1CD78A060278", cAuflKey: "C8A275FC-E949-40E8-850D-A8665EB7D557", nBestellMnge: 1, nVerPreis: 12.0}])
+order = Sappiamo::Order.new(
+cRAnrede: "Herr", cRVorname: "Test", cRName: "User", cRAdresse: "TestAdress",
+cRPLZ: "4053", cROrt: "Basel", cRLandISO: "CH", cREMail: "test@test.com",
+line_items_attributes: [
+{
+  cProdKey: "D075D583-4D5E-4DE6-8D6B-9C7807A07DDD",
+  cAuflKey: "E9B80D78-6E5E-4890-90C9-3FBA4C949F36",
+  nBestellMnge: 2, nVerPreis: 49.0
+},
+{
+  cProdKey: "0819F486-2B8B-4F65-A181-1CD78A060278",
+  cAuflKey: "C8A275FC-E949-40E8-850D-A8665EB7D557",
+  nBestellMnge: 1,nVerPreis: 12.0
+}])
+
 ```
 
 ## How to Contribute
