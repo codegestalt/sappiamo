@@ -32,6 +32,8 @@ line_items_attributes: [
   nBestellMnge: 1,nVerPreis: 12.0
 }])
 
+client.orders.create(order)
+
 ```
 
 ## How to Contribute
