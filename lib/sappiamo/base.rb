@@ -45,5 +45,12 @@ module Sappiamo
       @orders ||= Sappiamo::API::Orders.new(credentials)
     end
 
+    # All API actions surrounding AuthorRoles
+    #
+    # @return [Sappiamo::API::AuthorRoles]
+    def author_roles
+      @author_roles ||= Sappiamo::API::AuthorRoles.new(credentials)
+    end
+
   end
 end
