@@ -1,13 +1,13 @@
 module Sappiamo
   module API
-    class Addresses < Base
+    class Authors < Base
 
-      api_model Sappiamo::Address
+      api_model Sappiamo::Author
 
       include Sappiamo::Behavior::Crud
 
-      # Retrieves all Annotations.
-      # @return [Sappiamo::Annotation]
+      # Retrieves all Authors.
+      # @return [Sappiamo::Authors]
       def all(*)
         super
       rescue NotFound => e

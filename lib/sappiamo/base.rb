@@ -24,11 +24,11 @@ module Sappiamo
       @titles ||= Sappiamo::API::Annotations.new(credentials)
     end
 
-    # All API actions surrounding Addresses
+    # All API actions surrounding Authors
     #
-    # @return [Sappiamo::API::Addresses]
-    def addresses
-      @addresses ||= Sappiamo::API::Addresses.new(credentials)
+    # @return [Sappiamo::API::Authors]
+    def authors
+      @authors ||= Sappiamo::API::Authors.new(credentials)
     end
 
     # All API actions surrounding Transactions
