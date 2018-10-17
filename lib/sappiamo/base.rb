@@ -31,16 +31,9 @@ module Sappiamo
       @authors ||= Sappiamo::API::Authors.new(credentials)
     end
 
-    # All API actions surrounding Transactions
-    #
-    # @return [Sappiamo::API::Transactions]
-    def transactions
-      @transactions ||= Sappiamo::API::Transactions.new(credentials)
-    end
-
     # All API actions surrounding Orders
     #
-    # @return [Sappiamo::API::Transactions]
+    # @return [Sappiamo::API::Orders]
     def orders
       @orders ||= Sappiamo::API::Orders.new(credentials)
     end

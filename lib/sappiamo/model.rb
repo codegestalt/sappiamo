@@ -43,7 +43,7 @@ module Sappiamo
       end
 
       def skip_json_root?
-        @_skip_json_root == true
+        @_skip_json_root == false
       end
 
       def parse(json)
@@ -82,7 +82,6 @@ module Sappiamo
 
     module Utility
       class << self
-
         # Both methods are shamelessly ripped from https://github.com/rails/rails/blob/master/activesupport/lib/active_support/inflector/inflections.rb
 
         # Removes the module part from the expression in the string.

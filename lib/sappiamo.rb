@@ -16,15 +16,13 @@ require "sappiamo/base"
 
 require "sappiamo/behavior/crud"
 
-%w(model title annotation author transaction order author_role).each {|a| require "sappiamo/#{a}"}
-%w(base titles annotations authors transactions orders author_roles).each {|a| require "sappiamo/api/#{a}"}
+%w(model title annotation author order author_role).each {|a| require "sappiamo/#{a}"}
+%w(base titles annotations authors orders author_roles).each {|a| require "sappiamo/api/#{a}"}
 
 module Sappiamo
-
   class << self
     def client(endpoint: nil, access_token: nil)
       Sappiamo::Base.new(endpoint: endpoint, access_token: access_token)
     end
   end
-
 end

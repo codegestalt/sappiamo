@@ -2,6 +2,7 @@
 
 require "bundler/setup"
 require "sappiamo"
+require "pry"
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
@@ -9,6 +10,7 @@ require "sappiamo"
 # (If you use this, don't forget to add pry to your Gemfile!)
 # require "pry"
 # Pry.start
+@client = Sappiamo.client(endpoint: 'http://localhost:3000/api/v1', access_token: 'BeadnBOa-nENf0Dm4Y2GWA')
 
-require "irb"
-IRB.start
+Pry.start
+
